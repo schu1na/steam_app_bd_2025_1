@@ -14,7 +14,7 @@ export default function AboveAverageGames() {
   return (
     <S.Container>
       <S.AverageContainer>
-        <h2>Jogos Abaixo da Média com Reviews Positivas:</h2>
+        <h2>Jogos com Preço Abaixo da Média e com Reviews Positivas:</h2>
         <S.GamesWrapper>
           {games.map((g, i) => (
             <S.GameTag key={i}>{g.name}</S.GameTag>

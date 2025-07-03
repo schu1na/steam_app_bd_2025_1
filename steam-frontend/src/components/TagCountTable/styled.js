@@ -21,3 +21,58 @@ export const BoxContainer = styled.div`
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 `;
+
+// export const ControlsContainer = styled.div`
+//   margin-bottom: 20px;
+//   display: flex;
+//   align-items: center;
+//   gap: 10px;
+
+//   label {
+//     font-weight: bold;
+//   }
+
+//   select {
+//     padding: 5px;
+//     border-radius: 4px;
+//     border: 1px solid #ccc;
+//   }
+// `;
+
+export const ChartWrapper = styled.div`
+  position: relative;
+  height: 600px; // Defina uma altura para o container do gráfico
+  width: 100%;
+`;
+
+export const ControlsContainer = styled.div`
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+    label {
+        font-size: 20px;
+    }
+
+    select {
+        padding: 8px 12px;
+        font-size: 16px;
+        color: #333;
+        background: #fff; 
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+        transition: border-color .2s, box-shadow .2s;
+
+        &:focus {
+            border-color: #888;
+            box-shadow: 0 0 0 2px rgba(136,136,136,0.2);
+            outline: none;
+        }
+    }
+`;
